@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/dist
+.sass-cache
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+global.json
+newproduct.json
+olddata.json
+product.json
+serviceAccount.json
+tableware.json
+unbreakable.json
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

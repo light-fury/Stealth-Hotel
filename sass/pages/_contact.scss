@@ -1,0 +1,32 @@
+.contact {
+	&--banner {
+		position: relative;
+		img {
+			width: 100%;
+		}
+	}
+
+	.bmd-form-group {
+		background: rgba(0, 0, 0, 0.06);
+		padding-top: 1.7rem;
+
+		.invalid-feedback {
+			background: #fff;
+			margin: 0;
+		}
+
+		label {
+			top: 1.5rem;
+		}
+
+		input {
+			box-shadow: none !important;
+		}
+
+		input,
+		label {
+			padding-right: 1rem;
+			padding-left: 1rem;
+		}
+	}
+}

@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+}
+
+.navbar-brand img {
+  max-width: 260px;
+  @media all and (min-width: 768px) {
+    max-width: 400px;
+  }
+}
+
+.bmd-layout-container {
+  position: fixed;
+}
+
+.bmd-layout-content {
+  padding-top: 62px;
+  z-index: auto;
+  @media all and (min-width: 960px) {
+    padding-top: 118px;
+  }
+}
+
+.sub-menu {
+  width: 100%;
+}
+
+a {
+  color: #000;
+}
+
+.search-input {
+  background: rgba(0,0,0,.16);
+  color: #000;
+  &:focus {
+    background: #424242;
+    color: #fff;
+  }
+}
+
+.nav-fill {
+
+  a.nav-link {
+
+    &:hover {
+      background: rgba(0,0,0,0.1);
+    }
+
+    &.active {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
+
+.editor-bar {
+  padding: 8px 20px;
+  text-align: right;
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 118px;
+  width: 100%;
+  z-index: 20;
+}
+
+textarea {
+  min-height: 100px;
+}
